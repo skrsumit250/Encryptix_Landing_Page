@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font: sa;
+}
+.bg{
+  width: 100%;
+  position: relative;
+}
+.bgimg{
+  width: 100%;
+}
+.up_title{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.search{
+  position: absolute;
+  width: 25%;
+  height: 5%;
+  top: 10%;
+  right: 2%;
+  
+}
+.search input::placeholder{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+}
+#serach_box{
+  border: 1px solid white;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  outline: none;
+}
+#title{
+  font-size: 125%;
+}
+.container{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#cardimg{
+  border-radius: 7px 7px 0 0;
+}
+#cardimg:hover{
+  transform: scale(1.03);
+  transition-delay: 2ms;
+}
+#name{
+  font-size: 1.5rem;
+}
+footer{
+  width: 100%;
+  height: 25vh;
+  background-color: 	#181818;
+  text-align: center;
+}
+.logo{
+  padding: 20px;
+}
+#log{
+  padding: 10px;
+}
+#logimg:hover{
+  transform: scale(1.1);
+  transition-delay: 2ms;
+}
+#copy{
+  color: white;
+  font-size: 125%;
+}
+#copy:hover{
+  transform: scale(1.03);
+  transition-delay: 2ms;
+  color: red;
+}
